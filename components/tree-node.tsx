@@ -166,7 +166,7 @@ export default function TreeNode({
         </div>
 
         {hasChildren && isExpanded && (
-          <div className="w-8 h-px bg-gradient-to-r from-slate-600 to-transparent ml-4"></div>
+           <div className="w-8 h-px bg-yellow-300 ml-4"></div>
         )}
 
         {hasChildren && isExpanded && (
