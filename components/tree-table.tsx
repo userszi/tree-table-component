@@ -61,7 +61,7 @@ export default function TreeTable({ dataList, onNodeClick }: TreeTableProps) {
   const [pdfScale, setPdfScale] = useState(0.5);
 
   const [indexData, setIndexData] = useState<TreeNodeType[]>([]);
-  const [showIndexPanel, setShowIndexPanel] = useState(true);
+  const [showIndexPanel, setShowIndexPanel] = useState(false);
 
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
