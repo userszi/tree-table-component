@@ -103,6 +103,16 @@
   .letter-spacing-tight {
     letter-spacing: -0.025em;
   }
+  
+  /* 添加闪烁动画类 */
+  .blink {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
 }
 
 .list-item-compact {
